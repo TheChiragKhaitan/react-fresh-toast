@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # React Fresh Toast
 
 🎉 React-Fresh-Toast allows you to add notifications to your app with ease. No more nonsense!
@@ -301,5 +300,5 @@ Show your ❤️ and support by giving a ⭐. Any suggestions are welcome! Take 
 
 ## License
 
-This project is licensed under the ISC License - see the LICENSE file for details.
->>>>>>> 67372beebbe564dd35396838bd3b4a81a7c95094
+This project is licensed under the ISC License.
+
