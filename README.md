@@ -112,7 +112,7 @@ The tiggerToast function accepts an object of type ToastProps, which includes:
 
 ## Example
 
-Here's a basic example of how to use React Toast Popup:
+Here's a basic example of how to use React Fresh Toast :
 
 ```jsx
 import React from "react";
