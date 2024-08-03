@@ -1,6 +1,6 @@
 # React Fresh Toast
 
-🎉 React-Fresh-Toast allows you to add notifications to your app with ease. No more nonsense!
+🎉 React-Fresh-Toast allows you to add toast/notifications to your app with ease. No more nonsense!
 
 ## Installation
 
@@ -26,9 +26,9 @@ npm install react-fresh-toast
 
 ## Usage
 
-To use React Toast Popup in your React application, follow these steps:
+To use React Fresh Toast in your React application, follow these steps:
 
-Import the useNotification hook and necessary styles in your component:
+Import the useToast hook and necessary styles in your component:
 
 ```jsx
 import useToast from "react-fresh-toast";
@@ -96,18 +96,18 @@ useToast(position: PositionType)
 
 This hook returns an object with the following properties:
 
-- `ToastContainer`: React element representing the notification container.
-- `tiggerToast(toastProps: ToastProps)`: Function to trigger a notification with the specified properties.
+- `ToastContainer`: React element representing the toast container.
+- `tiggerToast(toastProps: ToastProps)`: Function to trigger a toast with the specified properties.
 
 
-`NotificationProps`
+`ToastProps`
 The tiggerToast function accepts an object of type ToastProps, which includes:
 
 
-- type: Type of the notification (success, info, warning, error).
-- message: Message to display in the notification.
-- duration (optional): Duration in milliseconds for which the notification should be displayed.
-- animation (optional): Animation type for the notification (fade, pop, slide).
+- type: Type of the toast (success, info, warning, error).
+- message: Message to display in the toast.
+- duration (optional): Duration in milliseconds for which the toast should be displayed.
+- animation (optional): Animation type for the toast (fade, pop, slide).
 - onClose (optional): Closing Function for the toast
 
 ## Example
