@@ -96,7 +96,7 @@ useToast(position: PositionType)
 
 This hook returns an object with the following properties:
 
-- `ToastConatiner`: React element representing the notification container.
+- `ToastContainer`: React element representing the notification container.
 - `tiggerToast(toastProps: ToastProps)`: Function to trigger a notification with the specified properties.
 
 
@@ -119,7 +119,7 @@ import React from "react";
 import useToast from "react-fresh-toast";
 
 function App() {
-  const { ToastConatiner, tiggerToast } =
+  const { ToastContainer, tiggerToast } =
     useToast("top-left");
 
   const handleButtonClick = () => {
@@ -132,7 +132,7 @@ function App() {
 
   return (
     <div className="App">
-      {ToastConatiner}
+      {ToastContainer}
       <h1>Toast Component</h1>
       <button onClick={handleButtonClick}>Show Success</button>
     </div>
@@ -248,7 +248,7 @@ useToast(position: PositionType)
 
 This hook returns an object with the following properties:
 
-- `ToastConatiner`: React element representing the notification container.
+- `ToastContainer`: React element representing the notification container.
 - `tiggerToast(toastProps: ToastProps)`: Function to trigger a notification with the specified properties.
 
 
@@ -271,7 +271,7 @@ import React from "react";
 import useToast from "react-fresh-toast";
 
 function App() {
-  const { ToastConatiner, tiggerToast } =
+  const { ToastContainer, tiggerToast } =
     useToast("top-left");
 
   const handleButtonClick = () => {
@@ -284,7 +284,7 @@ function App() {
 
   return (
     <div className="App">
-      {ToastConatiner}
+      {ToastContainer}
       <h1>Toast Component</h1>
       <button onClick={handleButtonClick}>Show Success</button>
     </div>
