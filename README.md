@@ -146,6 +146,28 @@ export default App;
 
 Show your ❤️ and support by giving a ⭐. Any suggestions are welcome! Take a look at the contributing guide.
 
+## Contact
+
+If you wish to connect with me, you can reach out through the following channels:
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/chirag-khaitan" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  
+  <a href="mailto:chiragkhaitan2014@gmail.com" target="_blank">
+    <img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  
+  <a href="https://www.instagram.com/thechiragkhaitan" target="_blank">
+    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+</div>
+
+
+© 2024 Chirag Khaitan
+
+
 ## License
 
 This project is licensed under the ISC License.
